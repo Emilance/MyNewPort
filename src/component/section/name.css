@@ -1,0 +1,44 @@
+.name > h1 {
+   margin:0.5rem 0;
+}
+
+.name > p {
+    font-size: 1.2rem;
+    margin : 0;
+} 
+
+.buttonCon {
+    display: flex;
+    width: 100%;
+}
+
+
+.namebtn {
+    width: 100%;
+    padding:0.6rem;
+    margin: 0.6rem;
+    font-size: large;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border : 2px dotted rgba(0, 0, 0, 0.733);
+    
+}
+
+#dark .namebtn {
+    border : 2px dotted white;
+    color: white;
+}
+#dark .namebtn:hover {
+    box-shadow: 5px 5px 1px white;
+}
+.namebtn:hover {
+    box-shadow: 5px 5px 1px black;
+}
+.nameIcon {
+    margin-right:0.5rem ;
+}

@@ -1,0 +1,35 @@
+.mystack{
+  margin-bottom: 5rem;
+}
+
+.technologies > hr {
+    width:80%;
+}
+
+
+
+.stackCon {
+    display: flex;
+    
+}
+
+.techname{
+    flex:0.5;
+    border-right: 1px solid rgba(0, 0, 0, 0.616);
+}
+.stackIcons{
+    flex:1.5;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+.singleTechCon{
+    margin: 0.5rem 0.8rem;
+}
+.techIcon{
+    cursor: pointer;
+}
+.techIcon:hover{
+    transform: scale(1.05);
+
+}

@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+.data {
+    margin: 0 1rem;
+}
+
+.sIcon{
+    
+}
+.leftCol {
+    text-align: start;
+    font-weight: 600;
+    font-size :large;
+
+}
+
+.leftCol > p > span {
+    color:#61dbfb;
+}
+
+
+
+.socialIcon {
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin:4rem auto;
+    
+}
+

@@ -1,25 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { createContext, useState } from 'react';
 
-function App() {
+import './App.css';
+import Home from './component/pages/Home';
+import FooterNav from './component/FooterNav';
+import ReactSwitch from 'react-switch';
+import PageHeader from './component/section/PageHeader';
+import Project from './component/pages/Project';
+import { Route, Routes } from 'react-router-dom';
+import About from './component/pages/About';
+import Contact from './component/pages/Contact';
+
+
+export   interface ContextState {
+  theme: string | null;
+  toggleTheme : Function ;
+}
+
+
+export const  ThemeContext  = createContext({} as ContextState) ;
+
+
+function App(){
+  const [theme, setTheme] = useState("light");
+ 
+  const toggleTheme =() =>{
+      setTheme((mode) => (mode == "light" ? "dark" : "light"))
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ThemeContext.Provider value={{ theme, toggleTheme}} >
+
+    <div className="App"  id={theme}>
+
+      <Routes>
+
+        <Route path='/' element={<Home/>} />
+        <Route path='/projects' element={<Project/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/contact' element={<Contact/>} />
+
+     </Routes>
+       {/* <Home/>
+            
+      <div className='switch' >
+
+        <ReactSwitch  id={theme} onChange={toggleTheme}   checked = {theme === "dark"}/>
+      </div>
+       {/* 
+
+      <FooterNav/> */}
     </div>
+
+    </ThemeContext.Provider>
   );
 }
 

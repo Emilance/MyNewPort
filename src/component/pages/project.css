@@ -1,0 +1,24 @@
+.project {
+    margin-bottom: 6rem;
+}
+
+.projectPageButtons {
+    display:  flex;
+    width: 100%;
+    height: 3rem;
+}
+
+.button {
+    flex:1;
+    border:1px dotted black;
+    display: grid;
+    align-content: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.openTab {
+    border-bottom: 5px solid #61dbfb;
+}
+
