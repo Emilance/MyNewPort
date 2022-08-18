@@ -19,8 +19,12 @@ const Home  = () =>{
               image="/projects/dyen.PNG"
               review = "My review is that you are great"
               title = "DYEN CLOTHING ECOMMERCE WEBSITE"
-              description ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro accusamus accusantium odit voluptatem, ipsa blanditiis perspiciatis dicta! Quisquam sit maiores necessitatibus aliquid minus quidem amet accusamus similique ut modi dolorum maxime aliquam rem nostrum beatae ad quibusdam, est vitae quis."
-           />
+              description ="A fullstack Ecommerce website built with NextJS and MongoDB as database, It allows user to login add products to cart and checkout, admin can also logIn with  unique login detail to view the admin dashboard "
+              coding = {true}
+              reference= "Fiverr"
+              live="dyen.vercel.app"
+              source=""
+          />
            {/* <hr />
            <LastProject/> */}
            <MyStack/>

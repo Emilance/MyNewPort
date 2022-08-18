@@ -26,3 +26,9 @@
     width: 4rem;
     border-radius: 50%;
 }
+
+@media (max-width:600px) {
+    .pageTitle {
+        font-size: 0.8rem;
+    }
+}

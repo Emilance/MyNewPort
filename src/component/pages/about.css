@@ -2,7 +2,9 @@
 
 
 
-
+ .badge-base  > p{
+     font-family: Arial, Helvetica, sans-serif
+}
 
 
 .data {
@@ -10,17 +12,24 @@
 }
 
 .sIcon{
-    
+     text-decoration: none;
+     color: black;
+}
+
+#dark .sIcon {
+    color: white;
 }
 .leftCol {
     text-align: start;
     font-weight: 600;
     font-size :large;
-
+    
 }
 
-.leftCol > p > span {
+.leftCol > p > span{
     color:#61dbfb;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
@@ -35,3 +44,9 @@
     
 }
 
+
+@media (max-width:600px) {
+    .badge-base > p {
+        margin: 0;
+    }
+}

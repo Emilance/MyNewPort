@@ -1,5 +1,6 @@
 import FooterNav from "../FooterNav"
 import PageHeader from "../section/PageHeader"
+import './contact.css'
 
 
 const Contact = () => {
@@ -11,6 +12,7 @@ const Contact = () => {
             <div className="formSection">
 
                <form className="form">
+                   <h4>Drop a Message for me here</h4>
                    <div className="field">
                        <label htmlFor="name" >Name</label>
                        <input id="name" type="text" placeholder="Type your name"/>
@@ -25,6 +27,9 @@ const Contact = () => {
                    </div>
                    <input type="submit" value = "Submit"/>
                </form>
+               <div className="svgCon">
+                   <img className="svg" src="/react.svg" />
+               </div>
             </div>
 
 

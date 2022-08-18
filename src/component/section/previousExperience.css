@@ -11,6 +11,7 @@
 }
 .company{
     display: flex;
+    
 }
 
 .companyLogoCon{
@@ -28,8 +29,16 @@
     margin-left: 0.8rem;
     margin-bottom: 1rem;
     flex:2;
+ 
 }
 
 .workExperience > hr {
     align-items:center;
+}
+
+
+@media (max-width: 600px) {
+    .experience {
+        margin: 1rem;
+    }
 }

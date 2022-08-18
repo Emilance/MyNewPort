@@ -14,6 +14,7 @@
 #dark {
     background-color: rgb(121, 112, 112);
     color:white;
+    
 
 }
 #light .footerNav{
@@ -67,4 +68,46 @@
     box-shadow: 0px -5px 15px #61dbfb;
 }
 
+.socialcon {
+    position: absolute;
+    bottom: 10vh;
+    right:3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+ 
 
+    height: 55vh;
+}
+
+.fIcon{
+   height: 4rem;
+   width: 4rem;
+   background-color:  #61dbfb;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0.4rem;
+   cursor: pointer;
+}
+
+
+
+#light .fIcon{
+    background-color:  rgb(71, 70, 70);
+    color:white;
+}
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .socialcon{
+        right:1rem;
+        height: 50vh;
+    }
+}

@@ -14,10 +14,8 @@ const About = ()=>{
               />
             <div className="summary" >
             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="damilola-daniel-alabi-120036218" data-version="v1">
-           </div>
-           
-              
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, eum pariatur? Perferendis necessitatibus at dignissimos.</p>
+           </div>  
+              <p>I am Damlola Daniel, an enthusiastic  ReactJS developer who is  eager to contribute to team success through hard work, attention to detail and excellent  organizational skills. With clear understanding of client application and server based application, I’m motivated  to learn, grow and excel in the tech space.  </p>
             </div>
             <div className="data">
                 <div className="leftCol">
@@ -31,21 +29,25 @@ const About = ()=>{
             </div>
 
              <div className="socialIcon" >
-                 <div className="sIcon">
+                 <a  className="sIcon" href="">
+                 
                      <BsFacebook size="30"/>
-                 </div>
-                 <div className="sIcon">
+             
+                 </a>
+                 <a  className="sIcon" href="">
                      <BsInstagram size="30"/>
-                 </div>
-                 <div className="sIcon">
+                 </a>
+                 <a  className="sIcon" href="">
+               
                      <BsTwitter size="30"/>
-                 </div>
-                 <div className="sIcon">
+               
+                 </a>
+                 <a  className="sIcon" href="">               
                      <BsLinkedin size="30"/>
-                 </div>
-                 <div className="sIcon">
+                 </a>
+                 <a  className="sIcon"  href="">
                      <BsGithub size="30"/>
-                 </div>
+                 </a>
              </div>
 
 

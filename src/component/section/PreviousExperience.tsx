@@ -15,7 +15,7 @@ const PreviousExperience =() => {
                     <div className="workExperience">
                         <h3>NextJs frontend Developer</h3>
                         <h5>July 2022</h5>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorem!</p>
+                         <p>I was a frontend webdev @ plajor where I worked together with a team of backend dev and front end dev to build and setUp the PlayJor platform proficiently</p>
                         <hr/>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const PreviousExperience =() => {
                     <div className="workExperience">
                         <h3>Freelance Frontend Developer</h3>
                         <h5>May 2021</h5>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorem!</p>
+                         <p>Having been a frontend dev on fiverr, I have been able to implement my proficiency in technologies like HTML,CSS, JAVASCRIPT and REACT.      Check out my fiverr profile <a href=''>HERE</a>  </p>
                         <hr/>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const PreviousExperience =() => {
                     <div className="workExperience">
                         <h3>Freelance Web Designer</h3>
                         <h5>May 2021</h5>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorem!</p>
+                         <p>I was a freelance  Web designer on Fiverr micro jobs platform where I designed and redesigned websites for clients on CMS platforms like Wordpress, squarespace, Shopify e.t.c  Check out my fiverr profile <a href=''>HERE</a>   </p>
                         <hr/>
                     </div>
                 </div>

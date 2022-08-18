@@ -94,7 +94,7 @@ const MyStack = ()=> {
                         </div>
                        
                     </div>
-                    <hr/>
+                 
                     <div className="stackCon">
                         <div className='techname' >
                             <h5>Languages</h5>
@@ -112,7 +112,7 @@ const MyStack = ()=> {
                         </div>
                        
                     </div>
-                    <hr/>
+         
                     <div className="stackCon">
                         <div className='techname' >
                             <h5>Frameworks</h5>
@@ -130,7 +130,7 @@ const MyStack = ()=> {
                         </div>
                        
                     </div>
-                    <hr/>
+               
                     <div className="stackCon">
                         <div className='techname' >
                             <h5>Others</h5>

@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import { ImHome } from 'react-icons/im'
 import {  IoMdContact } from "react-icons/io"
 import {SiAboutdotme}  from 'react-icons/si'
@@ -8,7 +8,12 @@ import { ThemeContext } from "../App"
 import { ContextState } from "../App"
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import {TbBrandReactNative}  from "react-icons/tb"
-import './footerNav.css'
+import {BiPlus} from "react-icons/bi"
+import {BsFacebook, BsInstagram,BsLinkedin,BsGithub, BsTwitter} from 'react-icons/bs'
+import {ImCross}  from 'react-icons/im';
+import './footerNav.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 type ThemeType ={
   theme : string | undefined;
@@ -16,16 +21,46 @@ type ThemeType ={
 }
 
 type pageType ={
-  page: string
+  page: string;
 }
 
 const FooterNav =(prop: pageType) => {
-
+   const [openSocial, setOpenSocial]  = useState(false)
    const {theme , toggleTheme} =useContext( ThemeContext)  as ThemeType;
+   const toggleSocial = ()=> {
+     setOpenSocial(!openSocial)
+   }
+
+   useEffect(() => {
+  AOS.init();
+}, [])
 
     return(
         <div className="footerNav" id={theme}>
 
+          {openSocial  &&
+          
+            <div className="socialcon" >
+           
+                 <div data-aos="fade-up" data-aos-duration="900" className="fIcon">
+                     <BsFacebook size="30"/>
+                 </div>
+                 <div data-aos="fade-up" data-aos-duration="800" className="fIcon">
+                     <BsInstagram size="30"/>
+                 </div>
+                 <div data-aos="fade-up"  data-aos-duration="700" className="fIcon">
+                     <BsTwitter size="30"/>
+                 </div>
+                 <div data-aos="fade-up" data-aos-duration="600"  className="fIcon">
+                     <BsLinkedin size="30"/>
+                 </div>
+                 <div  data-aos="fade-up" data-aos-duration="400" className="fIcon">
+                     <BsGithub size="30"/>
+                 </div>
+         
+
+            </div>
+          }
                 <div title="Project"  className={`navIcon  ${prop.page =="project" ? "active" : "" }`}>
                 <Link to="/projects">
                     <TbBrandReactNative title="project" className="icon" size='30'/>
@@ -54,14 +89,17 @@ const FooterNav =(prop: pageType) => {
                 </Link>
                 </div>
 
-
-                 <div title="Review" className={`navIcon  ${prop.page =="review" ? "active" : "" }`}>
-                <Link to="/review">
-                 <MdRateReview  className="icon" size='30'/>
-                </Link>
+              {openSocial ?  
+                <div   onClick={toggleSocial} title="Social Media" className={`navIcon  ${prop.page =="review" ? "active" : "" }`}>
+                  <ImCross  className="icon" size='25'/>
                 </div>
+              :
+                 <div  onClick={toggleSocial} title="Social Media" className={`navIcon  ${prop.page =="review" ? "active" : "" }`}>
+                 <BiPlus  className="icon" size='30'/>
+                </div>
+            }
 
-
+                
         </div>
     )
 }

@@ -10,33 +10,45 @@
 .buttonCon {
     display: flex;
     width: 100%;
+   
 }
 
-
-.namebtn {
+.nlink {
+    text-decoration:none;
+    width: 100%;
     width: 100%;
     padding:0.6rem;
     margin: 0.6rem;
-    font-size: large;
+    background-color: transparent;
+    border : 2px dotted rgba(0, 0, 0, 0.733);
     border-radius: 10px;
-    border:none;
     cursor: pointer;
+
+}
+.namebtn {
+    text-decoration:none;
+
+    font-size: large;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
-    border : 2px dotted rgba(0, 0, 0, 0.733);
+    
     
 }
 
-#dark .namebtn {
+#light .nlink {
+     color:black;
+}
+
+#dark .nlink {
     border : 2px dotted white;
     color: white;
 }
-#dark .namebtn:hover {
+#dark .nlink:hover {
     box-shadow: 5px 5px 1px white;
 }
-.namebtn:hover {
+.nlink:hover {
     box-shadow: 5px 5px 1px black;
 }
 .nameIcon {
