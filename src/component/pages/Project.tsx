@@ -25,7 +25,7 @@ const Project = () => {
       description :" A responsive and converting Landingpage for theVolink business, created with the motive of converting visitors to join the business waitlist and await its launching ",
       coding: true,
       reference: "Nill",
-      live:"theVolink.vercel.app",
+      live:"https://www.theVolink.vercel.app",
       source: " "
     },
     {
@@ -35,7 +35,7 @@ const Project = () => {
       description :"A cryptopunk nft website built with reactJs fetching nft data on thirdweb using opensea nft api",
       coding: true,
       reference: "Nill",
-      live:"cryotopunk.vercel.app",
+      live:"https://www.cryptopunk.vercel.app",
       source: " "
     },
     {
@@ -45,7 +45,7 @@ const Project = () => {
       description :"I built a facebook clone using React in the frontend, ExpressJs and NodeJS in the backend, and MongoDB as Database",
       coding: true,
       reference: "Nill",
-       live:"fbclone.vercel.app",
+       live:"https://www.fbclone.vercel.app",
       source: " "
     },
   ]
@@ -58,7 +58,7 @@ const Project = () => {
       description :"A thank you page for  an Online course  designed on Kajabi CMS platform, ",
       coding: false,
       reference: "Fiverr",
-      live:" ",
+      live:'https://stevie-m-hahn-llc.mykajabi.com/thank-you/',
       source: " "
     },
     {
@@ -68,7 +68,7 @@ const Project = () => {
       description :"I optimized bonlabin website a business website built on wordpress CMS platform, I redesign and updated homepage, product page and some other pages making it more attractive and userfriendly ",
       coding: false,
       reference: "Fiverr",
-      live:" ",
+      live:"https://www.bonlabin.com ",
       source: ""
     },
     {
@@ -78,7 +78,7 @@ const Project = () => {
       description :"I built a custom filter on totswapshop an eccommerce website  built on shopify, allowing users to filter through all products thereby improving its user experience ",
       coding: false,
       reference: "Fiverr",
-      live:" ",
+      live:"https://www.totswapshop.com/ ",
       source: ""
     },
     {
@@ -88,7 +88,7 @@ const Project = () => {
       description :"I designed sweetsorrella website on squarespace ensuring its user friendly and  SEO friendly , its  a podcast website designed for sweetsorrela on squarespace",
       coding: false,
       reference: "Fiverr",
-      live:" ",
+      live:"http://www.sweetsorrella.com/",
       source: ""
     },
   

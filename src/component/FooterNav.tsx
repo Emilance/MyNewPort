@@ -41,22 +41,22 @@ const FooterNav =(prop: pageType) => {
           {openSocial  &&
           
             <div className="socialcon" >
-           
-                 <div data-aos="fade-up" data-aos-duration="900" className="fIcon">
+                
+                 <a href="" data-aos="fade-up" data-aos-duration="900" className="fIcon">
                      <BsFacebook size="30"/>
-                 </div>
-                 <div data-aos="fade-up" data-aos-duration="800" className="fIcon">
+                 </a>
+                 <a  href="" data-aos="fade-up" data-aos-duration="800" className="fIcon">
                      <BsInstagram size="30"/>
-                 </div>
-                 <div data-aos="fade-up"  data-aos-duration="700" className="fIcon">
+                 </a>
+                 <a  target='_blank' href='https://twitter.com/AlabiDamilolaD3' data-aos="fade-up"  data-aos-duration="700" className="fIcon">
                      <BsTwitter size="30"/>
-                 </div>
-                 <div data-aos="fade-up" data-aos-duration="600"  className="fIcon">
+                 </a>
+                 <a  target='_blank'  href='https://www.linkedin.com/in/damilola-daniel-alabi-120036218/' data-aos="fade-up" data-aos-duration="600"  className="fIcon">
                      <BsLinkedin size="30"/>
-                 </div>
-                 <div  data-aos="fade-up" data-aos-duration="400" className="fIcon">
+                 </a>
+                 <a target="_blank" href='https://github.com/emilance'  data-aos="fade-up" data-aos-duration="400" className="fIcon">
                      <BsGithub size="30"/>
-                 </div>
+                 </a>
          
 
             </div>

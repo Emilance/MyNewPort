@@ -32,11 +32,11 @@ const LastProject = (props : projectInfoType) => {
                   <h1 >{title}</h1>
                   <p >{description}</p>
                   <div className='lastProjectBtnCon' >
-                      <a className="plink"  href={live}>
+                      <a  target="_blank" className="plink"  href={live}>
                       <div >LIVE</div>
                       </a>
                       {coding &&
-                          <a className="plink"  href={source}>
+                          <a target="_blank" className="plink"  href={source}>
                               <div>SOURCE CODE</div>
                           </a>
                       }

@@ -41,6 +41,16 @@
     font-weight: 700;
 }
 
+#dark .field >input  {
+    border: none;
+     background-color: transparent;
+    border-bottom:2px solid white ;
+}
+#dark .textarea >textarea  {
+    border: none;
+     background-color: transparent;
+    border-bottom:2px solid white ;
+}
 .form >input:hover{
     background-color: #61dbfb;
     color:white;
