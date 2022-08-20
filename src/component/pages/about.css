@@ -66,8 +66,12 @@
 .leftCol {
     text-align: start;
     font-weight: 600;
-    font-size :large;
+    font-size :1rem;
+    padding: 0.5rem;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
     flex:1;
+    box-shadow: 5px 3px 5px black;
 }
 
 .leftCol > p > span{
@@ -90,10 +94,11 @@
 
 
 @media (max-width:600px) {
-    .badge-base > p {
-        margin: 0;
-    }
+   
     .data{
         flex-direction: column;
+    }
+    .leftCol{
+        margin-bottom: 1rem;
     }
 }

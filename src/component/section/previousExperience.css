@@ -35,7 +35,9 @@
 .workExperience > hr {
     align-items:center;
 }
-
+.workExperience > p > a{
+    color: #61dbfb;
+}
 
 @media (max-width: 600px) {
     .experience {
