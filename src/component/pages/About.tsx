@@ -4,8 +4,15 @@ import {BsFacebook, BsInstagram,BsLinkedin,BsGithub, BsTwitter} from 'react-icon
 import { FaDownload } from "react-icons/fa"
 import './about.css'
 import PreviousExperience from "../section/PreviousExperience";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = ()=>{
+
+    useEffect(() => {
+        AOS.init({duration : 800});
+      }, [])
     return (
         <div className="about">
           
@@ -17,13 +24,15 @@ const About = ()=>{
            </div>   */}
               <p>I am Damlola Daniel, an enthusiastic  ReactJS developer who is  eager to contribute to team success through hard work, attention to detail and excellent  organizational skills. With clear understanding of client application and server based application, I’m motivated  to learn, grow and excel in the tech space.  </p>
             </div>
-            <div className="data">
+            <div data-aos="flip-left" className="data">
                 <div className="leftCol">
                     <p>LOCATION ::  <span>OSUN STATE, NIGERIA</span></p>
-                    <p>EDUCATION ::  <span>BSC MATHEMATICS OBAFEMI AWOLOWO UNIVERSITY</span></p>
+                    <p>EDUCATION ::  <span>BSC MATHEMATICS </span></p>
+                    <p>SCHOOL    ::  <span> OBAFEMI AWOLOWO UNIVERSITY</span></p>
                     <p>PHONE    ::  <span> 08140711202, 08122077565</span></p>
                     <p>EMAIL   ::     <span>EMMYFEDEF@GMAIL.COM</span></p>
-                     <p>INTEREST   ::   <span>CODING, NETWORKING, JUGGLING, TRADING, MUSIC </span></p>
+                     <p>INTEREST   ::   <span>CODING, NETWORKING, MUSIC </span></p>
+                     <p>MORE   ::     <span> JUGGLING, TRADING,</span></p>
                 </div>
                 <div className="rightCol">
                     <div className="resumeCon">

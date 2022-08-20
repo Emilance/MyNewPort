@@ -50,6 +50,10 @@
      border-top-left-radius: 10px;
      border-top-right-radius: 10px;
 }
+
+#dark .resumeCon{
+    border:2px solid rgb(59, 59, 59);
+}
 .resumeCon > img {
     width: 80%;
     height: 100%;
@@ -73,6 +77,10 @@
     flex:1;
     box-shadow: 5px 3px 5px black;
 }
+#dark .leftCol {
+    box-shadow: 3px 2px 8px white;
+}
+
 
 .leftCol > p > span{
     color:#61dbfb;
@@ -100,5 +108,7 @@
     }
     .leftCol{
         margin-bottom: 1rem;
+        font-size: 0.8rem;
+        width: 93%;
     }
 }

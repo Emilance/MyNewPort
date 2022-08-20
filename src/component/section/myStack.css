@@ -1,5 +1,6 @@
 .mystack{
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 .technologies > hr {
@@ -14,6 +15,10 @@
     margin:0 0.3rem ;
     margin-bottom: 1rem;
     
+}
+
+#dark .stackCon {
+    box-shadow: 3px 2px 8px white;
 }
 
 .techname{

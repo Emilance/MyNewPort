@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import './lastProject.css'
 type projectInfoType ={
@@ -14,9 +16,12 @@ type projectInfoType ={
 }
 
 const LastProject = (props : projectInfoType) => {
+    useEffect(() => {
+        AOS.init({duration : 800});
+      }, [])
     const {image, review, title, description, live, source, coding, reference} = props
     return(
-          <div className="lastProject" >
+          <div data-aos="fade-up" className="lastProject" >
               <div className='showCon'>
               <div className="showImg" >
                   <img  className="showImage" src={image} alt=""/>

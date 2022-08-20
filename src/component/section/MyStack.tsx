@@ -2,10 +2,18 @@ import {FaReact, FaCss3, FaBootstrap, FaNodeJs, FaPython } from 'react-icons/fa'
 import {BsGithub } from 'react-icons/bs'
 import {SiHtml5, SiJavascript, SiTailwindcss, SiStyledcomponents,  SiTypescript, SiExpress, SiMongodb}  from 'react-icons/si'
 import {TbBrandNextjs} from 'react-icons/tb'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import './myStack.css'
+import { useEffect } from 'react'
 
 const MyStack = ()=> {
+
+
+    useEffect(() => {
+        AOS.init({duration : 800});
+      }, [])
     const markups =[
         {
             name : "HTML",
@@ -77,7 +85,7 @@ const MyStack = ()=> {
         <div className="mystack" > 
                 <h1> MY STACKS</h1>
                 <div className="technologies">
-                    <div className="stackCon">
+                    <div data-aos="fade-left" className="stackCon">
                         <div className='techname' >
                             <h5>Mark Ups</h5>
                         </div>
@@ -95,7 +103,7 @@ const MyStack = ()=> {
                        
                     </div>
                  
-                    <div className="stackCon">
+                    <div data-aos="fade-right" className="stackCon">
                         <div className='techname' >
                             <h5>Languages</h5>
                         </div>
@@ -113,7 +121,7 @@ const MyStack = ()=> {
                        
                     </div>
          
-                    <div className="stackCon">
+                    <div data-aos="fade-left" className="stackCon">
                         <div className='techname' >
                             <h5>Frameworks</h5>
                         </div>
@@ -131,7 +139,7 @@ const MyStack = ()=> {
                        
                     </div>
                
-                    <div className="stackCon">
+                    <div data-aos="fade-right" className="stackCon">
                         <div className='techname' >
                             <h5>Others</h5>
                         </div>

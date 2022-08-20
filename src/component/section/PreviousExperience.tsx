@@ -1,14 +1,20 @@
 
 
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import './previousExperience.css'
 const PreviousExperience =() => {
+    
+    useEffect(() => {
+        AOS.init({duration : 800});
+      }, [])
     return (
         <div className="pExperience">
             <div className="experience">
                 <h1>Work Experience</h1>
                 <hr/>
-                <div className="company">
+                <div data-aos="fade-up" className="company">
                     <div className="companyLogoCon">
                         <img src="/playjor2.jpg"  alt=""/>
                     </div>
@@ -19,7 +25,7 @@ const PreviousExperience =() => {
                         <hr/>
                     </div>
                 </div>
-                <div className="company">
+                <div data-aos="fade-up" className="company">
                     <div className="companyLogoCon">
                         <img src="/fiverr.png"  alt=""/>
                     </div>
@@ -30,7 +36,7 @@ const PreviousExperience =() => {
                         <hr/>
                     </div>
                 </div>
-                <div className="company">
+                <div data-aos="fade-up" className="company">
                     <div className="companyLogoCon">
                         <img src="/fiverr1.png"  alt=""/>
                     </div>

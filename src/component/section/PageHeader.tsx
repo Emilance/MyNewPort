@@ -34,7 +34,11 @@ const PageHeader =(props : Titletype)=>{
           </div>
           <div className='themeswitch' >
 
-           <ReactSwitch  id={theme}   onChange={() =>toggleTheme()}   checked = {theme === "dark"}/>
+           <ReactSwitch  id={theme}
+           onColor ="#61dbfb"
+            
+             onChange={() =>toggleTheme()}  
+              checked = {theme === "dark"}/>
           </div>
 
 
