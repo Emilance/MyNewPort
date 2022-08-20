@@ -53,7 +53,7 @@ const Project = () => {
   const CMSProjects =[
     {
       image:"/projects/Thankyoupage.PNG",
-      review : "My review is that you are great",
+      review : "A+++++ service!! Went above and beyond with my expectations. I can't wait to use again!!",
       title : "A THANK YOU PAGE FOR KAJABI COURSE WEBSITE",
       description :"A thank you page for  an Online course  designed on Kajabi CMS platform, ",
       coding: false,
@@ -63,7 +63,7 @@ const Project = () => {
     },
     {
       image:"/projects/BONLABIN.PNG",
-      review : "My review i",
+      review : "fast and prompt service",
       title : "BONLABIN BUSINESS  WEB SITE BUILD WITH WORDPRESS",
       description :"I optimized bonlabin website a business website built on wordpress CMS platform, I redesign and updated homepage, product page and some other pages making it more attractive and userfriendly ",
       coding: false,
@@ -73,7 +73,7 @@ const Project = () => {
     },
     {
       image:"/projects/totswapfilter.PNG",
-      review : "My review is that yo",
+      review : "I needed some coding added to my shopify website in order to get around some of the filter limitations and Emilance did exactly what I needed and delivered the project a day early for an extremely reasonable price. He was lovely to work with and responded to all queries quickly and efficiently. Would absolutely 100% recommend!",
       title : "TOTSWAPSHOP ecommerce website",
       description :"I built a custom filter on totswapshop an eccommerce website  built on shopify, allowing users to filter through all products thereby improving its user experience ",
       coding: false,
@@ -83,7 +83,7 @@ const Project = () => {
     },
     {
       image:"/projects/Sweetsorrella.PNG",
-      review : "My review is that yo",
+      review : "Emilance was able to within a day get the flow and functionality of my square space website. He had great ideas that let me think of other ways my website could function. I recommend and look forward to working together again.",
       title : "Sweetsorrella Podcast website",
       description :"I designed sweetsorrella website on squarespace ensuring its user friendly and  SEO friendly , its  a podcast website designed for sweetsorrela on squarespace",
       coding: false,

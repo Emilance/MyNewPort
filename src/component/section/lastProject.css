@@ -29,6 +29,11 @@
     transition: 1s all ease;
 
 }
+.imgOverlay> p> span{
+    font-size: 0.8rem;
+    color:gold;
+
+}
 .imgOverlay >hr {
     width: 80%;
 }

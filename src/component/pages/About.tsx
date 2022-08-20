@@ -37,10 +37,13 @@ const About = ()=>{
                 <div className="rightCol">
                     <div className="resumeCon">
                         <img src="/resume.png" alt="myresume"/>
+                        <a href="/Resume.pdf" >
+
                       <div className="downloadBtn">
-                        <a href="/resume.png">Download Resume</a>
+                        <a >View Resume</a>
                         <FaDownload  size="20"/>
                       </div>
+                        </a>
                     </div>
                 </div>
 
