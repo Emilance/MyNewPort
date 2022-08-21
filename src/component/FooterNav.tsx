@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext, useEffect, useRef, useState } from "react"
 import { ImHome } from 'react-icons/im'
 import {  IoMdContact } from "react-icons/io"
 import {SiAboutdotme}  from 'react-icons/si'
@@ -25,6 +25,7 @@ type pageType ={
 }
 
 const FooterNav =(prop: pageType) => {
+  const  buttonRef =useRef<HTMLHeadingElement>()
    const [openSocial, setOpenSocial]  = useState(false)
    const {theme , toggleTheme} =useContext( ThemeContext)  as ThemeType;
    const toggleSocial = ()=> {
@@ -42,13 +43,13 @@ const FooterNav =(prop: pageType) => {
           
             <div className="socialcon" >
                 
-                 <a href="" data-aos="fade-up" data-aos-duration="900" className="fIcon">
+                 <a target='_blank' href="https://web.facebook.com/damiloladaniel.alabi/" data-aos="fade-up" data-aos-duration="900" className="fIcon">
                      <BsFacebook size="30"/>
                  </a>
-                 <a  href="" data-aos="fade-up" data-aos-duration="800" className="fIcon">
+                 <a target='_blank' href="https://www.instagram.com/eminencedd/" data-aos="fade-up" data-aos-duration="800" className="fIcon">
                      <BsInstagram size="30"/>
                  </a>
-                 <a  target='_blank' href='https://twitter.com/AlabiDamilolaD3' data-aos="fade-up"  data-aos-duration="700" className="fIcon">
+                 <a  target='_blank' href='https://twitter.com/EminenceX3' data-aos="fade-up"  data-aos-duration="700" className="fIcon">
                      <BsTwitter size="30"/>
                  </a>
                  <a  target='_blank'  href='https://www.linkedin.com/in/damilola-daniel-alabi-120036218/' data-aos="fade-up" data-aos-duration="600"  className="fIcon">

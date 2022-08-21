@@ -50,15 +50,15 @@ const About = ()=>{
             </div>
 
              <div className="socialIcon" >
-                 <a  className="sIcon" href="">
+                 <a target='_blank' href="https://web.facebook.com/damiloladaniel.alabi/"  className="sIcon" >
                  
                      <BsFacebook size="30"/>
              
                  </a>
-                 <a  className="sIcon" href="">
+                 <a  className="sIcon" target='_blank' href="https://www.instagram.com/eminencedd/">
                      <BsInstagram size="30"/>
                  </a>
-                 <a   className="sIcon"  target='_blank' href='https://twitter.com/AlabiDamilolaD3' >
+                 <a   className="sIcon"  target='_blank' href='https://twitter.com/EminenceX3' >
                
                      <BsTwitter size="30" />
                

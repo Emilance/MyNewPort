@@ -22,8 +22,8 @@ const Home  = () =>{
               description ="A fullstack Ecommerce website built with NextJS and MongoDB as database, It allows user to login add products to cart and checkout, admin can also logIn with  unique login detail to view the admin dashboard "
               coding = {true}
               reference= "Nill"
-              live="dyen.vercel.app"
-              source=""
+              live="https://dyen.vercel.app"
+              source="https://github.com/Emilance/Dyenwebsite"
           />
            {/* <hr />
            <LastProject/> */}

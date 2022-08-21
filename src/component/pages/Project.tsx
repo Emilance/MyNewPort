@@ -14,7 +14,7 @@ const Project = () => {
       description :"A fullstack Ecommerce website built with NextJS and MongoDB as database, It allows user to login add products to cart and checkout, admin can also logIn with  unique login detail to view the admin dashboard  ",
       coding: true,
       reference: "Nill",
-      live:"",
+      live:"https://dyen.vercel.app",
       source: "https://github.com/Emilance/Dyenwebsite"
 
     },
@@ -25,7 +25,7 @@ const Project = () => {
       description :" A responsive and converting Landingpage for theVolink business, created with the motive of converting visitors to join the business waitlist and await its launching ",
       coding: true,
       reference: "Nill",
-      live:"https://www.theVolink.vercel.app",
+      live:"https://theVolink.netlify.app",
       source: "https://github.com/Emilance/thevolink"
     },
     {
@@ -35,7 +35,7 @@ const Project = () => {
       description :"A cryptopunk nft website built with reactJs fetching nft data on thirdweb using opensea nft api",
       coding: true,
       reference: "Nill",
-      live:"https://www.cryptopunk.vercel.app",
+      live:"https://www.cryptopunk.netlify.app",
       source: "https://github.com/Emilance/Cryptopunknft"
     },
     {
