@@ -17,11 +17,11 @@ const Home  = () =>{
            />
            <LastProject
               image="/projects/dyen.PNG"
-              review = "My review is that you are great"
+              review = "Work in Progress"
               title = "DYEN CLOTHING ECOMMERCE WEBSITE"
               description ="A fullstack Ecommerce website built with NextJS and MongoDB as database, It allows user to login add products to cart and checkout, admin can also logIn with  unique login detail to view the admin dashboard "
               coding = {true}
-              reference= "Fiverr"
+              reference= "Nill"
               live="dyen.vercel.app"
               source=""
           />

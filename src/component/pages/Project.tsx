@@ -13,9 +13,9 @@ const Project = () => {
       title : "DYEN CLOTHING ECOMMERCE WEBSITE",
       description :"A fullstack Ecommerce website built with NextJS and MongoDB as database, It allows user to login add products to cart and checkout, admin can also logIn with  unique login detail to view the admin dashboard  ",
       coding: true,
-      reference: "Fiverr",
-      live:"https://www.dyen.vercel.app",
-      source: " "
+      reference: "Nill",
+      live:"",
+      source: "https://github.com/Emilance/Dyenwebsite"
 
     },
     {
@@ -26,17 +26,17 @@ const Project = () => {
       coding: true,
       reference: "Nill",
       live:"https://www.theVolink.vercel.app",
-      source: " "
+      source: "https://github.com/Emilance/thevolink"
     },
     {
       image:"/projects/cryptopunk.PNG",
-      review : "My review is that you are great",
+      review : "Persona Project",
       title : "CRYPTOPUNK NFT PAGE",
       description :"A cryptopunk nft website built with reactJs fetching nft data on thirdweb using opensea nft api",
       coding: true,
       reference: "Nill",
       live:"https://www.cryptopunk.vercel.app",
-      source: " "
+      source: "https://github.com/Emilance/Cryptopunknft"
     },
     {
       image:"/projects/fbclone.PNG",
@@ -45,8 +45,8 @@ const Project = () => {
       description :"I built a facebook clone using React in the frontend, ExpressJs and NodeJS in the backend, and MongoDB as Database",
       coding: true,
       reference: "Nill",
-       live:"https://www.fbclone.vercel.app",
-      source: " "
+       live:"",
+      source: "https://github.com/Emilance/Fb-clone-Backend"
     },
   ]
 
