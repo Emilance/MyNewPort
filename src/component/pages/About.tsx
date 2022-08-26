@@ -74,10 +74,6 @@ const About = ()=>{
 
              <PreviousExperience/>
 
-            
-
-
-
 
             <FooterNav
              page="about"
