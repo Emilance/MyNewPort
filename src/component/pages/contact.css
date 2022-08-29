@@ -5,7 +5,9 @@
     text-align: start;
     margin-left: 1rem;
 }
-
+.contact {
+    padding-bottom: 3rem;
+}
 .field{
     height: 4rem;
     margin: 1rem;

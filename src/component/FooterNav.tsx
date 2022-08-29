@@ -62,33 +62,41 @@ const FooterNav =(prop: pageType) => {
 
             </div>
           }
+           <Link  className="link" to="/projects">
+
                 <div title="Project"  className={`navIcon  ${prop.page =="project" ? "active" : "" }`}>
-                <Link to="/projects">
+               
                     <TbBrandReactNative title="project" className="icon" size='30'/>
-                </Link>
+            
                 </div>
+           </Link>
 
 
-
+           <Link  className="link"  to="/contact">
                  <div title="Contact" className={`navIcon  ${prop.page =="contact" ? "active" : "" }`}>
-                <Link to="/contact">
+               
                    <IoMdContact  className="icon" size='30'/>
-                </Link>
+                
                 </div>
+            </Link>    
 
 
-
+            <Link  className="link" to="/">
                   <div title="Home" className={`navIcon  ${prop.page =="home" ? "active" : "" }`}>
-                <Link  className="link" to="/">
+               
                   <ImHome  className="icon" size='35'/>
-                </Link>
+             
                 </div>
+            </Link>
 
+
+            <Link  className="link" to="/about">
                  <div title="About" className={`navIcon  ${prop.page =="about" ? "active" : "" }`}>
-                <Link to="/about">
+               
                  <SiAboutdotme  className="icon" size='30'/>
-                </Link>
+               
                 </div>
+            </Link>    
 
               {openSocial ?  
                 <div   onClick={toggleSocial} title="Social Media" className={`navIcon  ${prop.page =="review" ? "active" : "" }`}>

@@ -1,14 +1,16 @@
 
 .footerNav {
     position: fixed;
-    bottom: 0;
+    bottom: 5%;
     height: 10vh;
     display: flex;
-    width: 100%;
+    width:60%;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.137);
     max-width: 1100px ;
+    left: 50%;
+    margin-left: -30%;
 }
 
 #dark {
@@ -18,10 +20,16 @@
 
 }
 #light .footerNav{
-    background-color: #61dbfb;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border:4px solid #61dbfb;
+    border-radius: 1rem;
 }
 #dark .footerNav {
-    background-color: rgb(71, 70, 70);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border:4px solid  rgb(71, 70, 70);
+    border-radius: 1rem;
 }
 
 .navIcon{
@@ -35,9 +43,14 @@
     border-radius:10px ;
 }
 
+.link{
+    width: 100%;
+    height: 100%;
+}
 #dark .navIcon {
     color:white;
 }
+
 
 .navIcon:hover {
     background-color: rgba(0, 0, 0, 0.5) ;
@@ -112,5 +125,10 @@
     .socialcon{
         right:1rem;
         height: 50vh;
+    }
+    .footerNav {
+        width: 96%;
+        margin-left: -49%;
+        bottom:2% ;
     }
 }
