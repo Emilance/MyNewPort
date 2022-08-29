@@ -124,7 +124,7 @@ const Project = () => {
                      live ={details.live}
                      source={details.source}
                   />
-                   <hr/>
+                 
               </Fragment>
               )
             })

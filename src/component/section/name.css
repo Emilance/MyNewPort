@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
+
 .name > h1 {
    margin:0.5rem 0;
 }
@@ -10,6 +12,8 @@
 .buttonCon {
     display: flex;
     width: 100%;
+    font-family: 'Quicksand', sans-serif;
+
    
 }
 

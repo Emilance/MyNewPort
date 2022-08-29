@@ -5,6 +5,12 @@ import LastProject from "../section/LastProject"
 import MyStack from "../section/MyStack"
 import Name from "../section/Name"
 import PreviousExperience from "../section/PreviousExperience"
+import {FaReact, FaCss3, FaBootstrap, FaNodeJs, FaPython } from 'react-icons/fa'
+import {BsGithub } from 'react-icons/bs'
+import {SiHtml5, SiJavascript, SiTailwindcss, SiStyledcomponents,  SiTypescript, SiExpress, SiMongodb}  from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
+
+
 
 
 const Home  = () =>{
