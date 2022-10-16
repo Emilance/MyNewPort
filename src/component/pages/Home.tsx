@@ -22,14 +22,14 @@ const Home  = () =>{
               role ="ReactJs developer"
            />
            <LastProject
-              image="/projects/dyen.PNG"
-              review = "Work in Progress"
-              title = "DYEN CLOTHING ECOMMERCE WEBSITE"
-              description ="A fullstack Ecommerce website built with NextJS and MongoDB as database, It allows user to login add products to cart and checkout, admin can also logIn with  unique login detail to view the admin dashboard "
+              image="/projects/astro.png"
+              review = "Hackhathon"
+              title = "ASTROMUTATIO LEARNING PLATFOFRM"
+              description ="Astromutatio is a learning platform built with NextJs for astronomy lovers, I led a team to participant at NASA SPACE APP challlenge 2022, where we Utilize threeJs, React-three-fiber and NextJS in building astromutatio platform"
               coding = {true}
-              reference= "Nill"
-              live="https://dyen.vercel.app"
-              source="https://github.com/Emilance/Dyenwebsite"
+              reference= "NASA SPACE APP"
+              live="https://astromutatio.vercel.app"
+              source="https://github.com/Emilance/Astromutatio"
           />
            {/* <hr />
            <LastProject/> */}

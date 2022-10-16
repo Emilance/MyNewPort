@@ -8,6 +8,16 @@ const Project = () => {
     const [projectType, setProjectType] = useState("coding")
   const codingProjects =[
     {
+      image:"/projects/astro.png",
+      review : "Hackhathon",
+      title : "ASTROMUTATIO LEARNING PLATFOFRM",
+      description :"Astromutatio is a learning platform built with NextJs for astronomy lovers, I led a team to participant at NASA SPACE APP challlenge 2022, where we Utilize threeJs, React-three-fiber and NextJS in building astromutatio platform",
+      coding : true,
+      reference: "NASA SPACE APP",
+      live:"https://astromutatio.vercel.app",
+      source:"https://github.com/Emilance/Astromutatio"
+    },
+    {
       image:"/projects/dyen.PNG",
       review : "Work in progress",
       title : "DYEN CLOTHING ECOMMERCE WEBSITE",
@@ -51,6 +61,7 @@ const Project = () => {
   ]
 
   const CMSProjects =[
+   
     {
       image:"/projects/Thankyoupage.PNG",
       review : "A+++++ service!! Went above and beyond with my expectations. I can't wait to use again!!",

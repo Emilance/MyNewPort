@@ -7,6 +7,7 @@ import PreviousExperience from "../section/PreviousExperience";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Award from "../section/Award";
 
 const About = ()=>{
 
@@ -70,7 +71,7 @@ const About = ()=>{
                      <BsGithub size="30"/>
                  </a>
              </div>
-
+              <Award/>
 
              <PreviousExperience/>
 

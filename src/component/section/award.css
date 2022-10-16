@@ -1,0 +1,31 @@
+.awardSectionCon{
+    width: 100%;
+}
+
+.sectionCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionCon > img{
+    height: 18rem;
+    margin: 0 0.5rem;
+    width: fit-content;
+    border: 2px solid white;
+    border-radius:1rem;
+}
+
+
+
+
+
+@media (max-width:1000px) {
+    .sectionCon{
+        flex-direction: column;
+    }
+    .sectionCon > img{
+        margin: 0.5rem 0;
+        width: 90%;
+    }
+}
