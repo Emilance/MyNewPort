@@ -25,7 +25,7 @@ const Home  = () =>{
               image="/projects/astro.png"
               review = "Hackhathon"
               title = "ASTROMUTATIO LEARNING PLATFOFRM"
-              description ="Astromutatio is a learning platform built with NextJs for astronomy lovers, I led a team to participant at NASA SPACE APP challlenge 2022, where we Utilize threeJs, React-three-fiber and NextJS in building astromutatio platform"
+              description ="Astromutatio is a learning platform built with NextJs for astronomy lovers, I worked together with a patner at NASA SPACE APP challlenge 2022, where we Utilize threeJs, React-three-fiber and NextJS in building astromutatio platform within 2days"
               coding = {true}
               reference= "NASA SPACE APP"
               live="https://astromutatio.vercel.app"
