@@ -7,6 +7,8 @@
 .cover{
     width: 100%;
     height: 70%;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.295) 90% ,  rgba(0, 0, 0, 0.521) 40%), url('../../public/comp5.jpg') ;
+    background-size: cover;
 }
 
 

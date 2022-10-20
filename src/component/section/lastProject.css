@@ -146,6 +146,7 @@
     .mobileOnly{
         display: block;
         text-decoration: underline;
+        cursor: pointer;
     }
     .showImg {
         border-radius: 1rem;
