@@ -8,6 +8,16 @@ const Project = () => {
     const [projectType, setProjectType] = useState("coding")
   const codingProjects =[
     {
+      image:"/projects//befunded.png",
+      review : "Hackhathon",
+      title : "BeFunded Fintech  Web App",
+      description :"I collaborated with 2 developers to build  beFunded a web app that connects entrepreneurs with angel investors and Venture capitalists who are ready to invest in companies and scalable ideas in exchange for equity",
+      coding : true,
+      reference: "SEERBIT HACKHATON",
+      live:"https://be-funded.vercel.app",
+      source:"https://github.com/Emilance/BeFunded"
+    },
+    {
       image:"/projects/astro.png",
       review : "Hackhathon",
       title : "ASTROMUTATIO LEARNING PLATFOFRM",
